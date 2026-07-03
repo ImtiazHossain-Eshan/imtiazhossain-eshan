@@ -70,12 +70,16 @@ AI Engineer and researcher (CSE @ BRAC University) working across computer visio
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" />
+<!-- <img height="165" src="https://imtiazgithubstats.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF" />
+<img height="165" src="https://imtiazgithubstats.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" /> -->
 
 <img src="https://streak-stats.demolab.com?user=ImtiazHossain-Eshan&hide_border=true&background=07080A&stroke=1B202A&ring=7CDFFF&fire=7CDFFF&currStreakLabel=7CDFFF&sideLabels=9AA3AF&currStreakNum=E9E7E2&sideNums=E9E7E2&dayLabels=9AA3AF&dates=5F6672&titleColor=7CDFFF" height="165" />
 
 </div>
+
+---
+
+<img src="https://raw.githubusercontent.com/ImtiazHossain-Eshan/imtiazhossain-eshan/output/github-snake-dark.svg" alt="snake animation" width="100%" />
 
 ---
 
