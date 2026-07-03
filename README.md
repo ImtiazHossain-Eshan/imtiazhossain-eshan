@@ -2,6 +2,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=26&pause=900&color=7CDFFF&center=true&vCenter=true&width=720&height=46&lines=AI+Engineer+%26+Researcher;Computer+Vision+%C2%B7+NLP+%C2%B7+Deep+Learning;I+build+intelligent+systems." alt="typing banner" />
 
+<img src="assets/github-banner.png" width="100%" alt="Imtiaz Hossain — AI Engineer & Researcher" />
+
 <p>
   <a href="https://imtiazhossain.dev"><img src="https://img.shields.io/badge/Portfolio-imtiazhossain.dev-7CDFFF?style=for-the-badge&logo=vercel&logoColor=black" /></a>
   <a href="https://www.linkedin.com/in/imtiazhossaineshan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
