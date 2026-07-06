@@ -1,0 +1,122 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Imtiaz Hossain — AI Engineer and Researcher">
+  <title>Imtiaz Hossain — AI Engineer &amp; Researcher</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080A0D"/>
+      <stop offset="0.6" stop-color="#07080A"/>
+      <stop offset="1" stop-color="#0A0E15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7CDFFF" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#2CB8E8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7CDFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <filter id="pulseGlow" x="-160%" y="-160%" width="420%" height="420%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+    <style>
+      @keyframes tw { 0%,100%{opacity:.32} 50%{opacity:1} }
+      @keyframes br { 0%,100%{opacity:.28} 50%{opacity:.62} }
+      @keyframes ep { 0%,100%{opacity:.16} 50%{opacity:.42} }
+      @keyframes dot { 0%,100%{opacity:1} 50%{opacity:.2} }
+      @keyframes sheen { 0%{transform:translateX(-40px)} 100%{transform:translateX(250px)} }
+      .node { animation: tw 3.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .glow { animation: br 7s ease-in-out infinite; }
+      .edge { animation: ep 5.2s ease-in-out infinite; }
+      .kdot { animation: dot 2s ease-in-out infinite; }
+      .sheen { animation: sheen 3.4s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .node,.glow,.edge,.kdot,.sheen { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#161A22" stroke-width="1"/>
+  <circle class="glow" cx="946" cy="150" r="240" fill="url(#glow)" opacity="0.45"/>
+
+  <!-- edges -->
+  <g class="edges" stroke="#7CDFFF" stroke-width="1.1" opacity="0.3">
+    <line class="edge" x1="690" y1="86" x2="774" y2="140"/>
+    <line class="edge" x1="774" y1="140" x2="752" y2="214"/>
+    <line class="edge" x1="690" y1="86" x2="690" y2="172"/>
+    <line class="edge" x1="690" y1="172" x2="752" y2="214"/>
+    <line class="edge" x1="774" y1="140" x2="872" y2="172"/>
+    <line class="edge" x1="846" y1="64" x2="930" y2="112"/>
+    <line class="edge" x1="930" y1="112" x2="872" y2="172"/>
+    <line class="edge" x1="872" y1="172" x2="986" y2="196"/>
+    <line class="edge" x1="930" y1="112" x2="1054" y2="146"/>
+    <line class="edge" x1="986" y1="68" x2="930" y2="112"/>
+    <line class="edge" x1="986" y1="196" x2="1054" y2="146"/>
+    <line class="edge" x1="1054" y1="146" x2="1122" y2="86"/>
+    <line class="edge" x1="986" y1="196" x2="1122" y2="206"/>
+    <line class="edge" x1="1054" y1="146" x2="1122" y2="206"/>
+    <line class="edge" x1="846" y1="64" x2="986" y2="68"/>
+    <line class="edge" x1="986" y1="68" x2="1122" y2="86"/>
+    <line class="edge" x1="872" y1="172" x2="814" y2="252"/>
+    <line class="edge" x1="752" y1="214" x2="814" y2="252"/>
+    <line class="edge" x1="1054" y1="146" x2="1070" y2="246"/>
+    <line class="edge" x1="1122" y1="206" x2="1070" y2="246"/>
+    <line class="edge" x1="986" y1="196" x2="952" y2="252"/>
+    <line class="edge" x1="900" y1="40" x2="846" y2="64"/>
+  </g>
+
+  <!-- traveling signal pulses -->
+  <circle r="3.1" fill="#CDEFFF" filter="url(#pulseGlow)">
+    <animateMotion dur="4.6s" repeatCount="indefinite" path="M690,86 L774,140 L872,172 L930,112 L1054,146 L1122,86"/>
+  </circle>
+  <circle r="2.6" fill="#7CDFFF" filter="url(#pulseGlow)">
+    <animateMotion dur="5.8s" begin="1.1s" repeatCount="indefinite" path="M846,64 L930,112 L986,196 L1122,206"/>
+  </circle>
+
+  <!-- depth: soft foreground nodes -->
+  <g fill="#7CDFFF" filter="url(#soft)" opacity="0.5">
+    <circle class="node" cx="1054" cy="146" r="6.5" style="animation-delay:.2s"/>
+    <circle class="node" cx="846" cy="64" r="5.5" style="animation-delay:1.1s"/>
+    <circle class="node" cx="930" cy="112" r="5" style="animation-delay:.7s"/>
+  </g>
+
+  <!-- sharp nodes -->
+  <g fill="#7CDFFF" opacity="0.85">
+    <circle class="node" cx="690" cy="86"  r="3"   style="animation-delay:.0s"/>
+    <circle class="node" cx="774" cy="140" r="2.6" style="animation-delay:.5s"/>
+    <circle class="node" cx="752" cy="214" r="2.2" style="animation-delay:1.0s"/>
+    <circle class="node" cx="690" cy="172" r="2.4" style="animation-delay:1.5s"/>
+    <circle class="node" cx="846" cy="64"  r="3.2" style="animation-delay:.3s"/>
+    <circle class="node" cx="872" cy="172" r="2.6" style="animation-delay:.8s"/>
+    <circle class="node" cx="930" cy="112" r="3"   style="animation-delay:1.3s"/>
+    <circle class="node" cx="986" cy="196" r="2.8" style="animation-delay:.6s"/>
+    <circle class="node" cx="1054" cy="146" r="4"  style="animation-delay:.2s"/>
+    <circle class="node" cx="1122" cy="86"  r="2.6" style="animation-delay:1.1s"/>
+    <circle class="node" cx="1122" cy="206" r="3"  style="animation-delay:.9s"/>
+    <circle class="node" cx="986" cy="68"  r="2.4" style="animation-delay:1.6s"/>
+    <circle class="node" cx="900" cy="40"  r="2"   style="animation-delay:.4s"/>
+    <circle class="node" cx="814" cy="252" r="2.2" style="animation-delay:1.2s"/>
+    <circle class="node" cx="1070" cy="246" r="2.4" style="animation-delay:.7s"/>
+    <circle class="node" cx="952" cy="252" r="2"   style="animation-delay:1.4s"/>
+  </g>
+
+  <!-- text block -->
+  <g font-family="ui-monospace, 'JetBrains Mono', 'SFMono-Regular', 'Courier New', monospace">
+    <circle class="kdot" cx="66" cy="80" r="3.5" fill="#7CDFFF"/>
+    <text x="80" y="85" font-size="13" letter-spacing="4" fill="#5F6672">AI RESEARCH LABORATORY</text>
+  </g>
+
+  <text x="59" y="160" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-1.2" fill="#E9E7E2">Imtiaz Hossain</text>
+
+  <!-- accent underline with moving sheen -->
+  <g>
+    <rect x="62" y="176" width="252" height="2.5" fill="#2CB8E8" opacity="0.55"/>
+    <rect class="sheen" x="62" y="176" width="60" height="2.5" fill="#CDEFFF"/>
+    <rect x="62" y="176" width="252" height="2.5" fill="none"/>
+  </g>
+
+  <g font-family="ui-monospace, 'JetBrains Mono', 'SFMono-Regular', 'Courier New', monospace">
+    <text x="62" y="211" font-size="14.5" letter-spacing="0.6" fill="#9AA3AF">AI Engineer · Computer Vision · NLP · Deep Learning · Research</text>
+    <text x="62" y="243" font-size="14" letter-spacing="1" fill="#7CDFFF">imtiazhossain.dev</text>
+  </g>
+</svg>

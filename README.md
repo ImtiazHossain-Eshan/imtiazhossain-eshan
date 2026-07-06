@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=26&pause=900&color=7CDFFF&center=true&vCenter=true&width=720&height=46&lines=AI+Engineer+%26+Researcher;Computer+Vision+%C2%B7+NLP+%C2%B7+Deep+Learning;I+build+intelligent+systems." alt="typing banner" />
 
-<img src="assets/github-banner.png" width="100%" alt="Imtiaz Hossain — AI Engineer & Researcher" />
+<img src="assets/banner.svg" width="100%" alt="Imtiaz Hossain — AI Engineer & Researcher" />
 
 <p>
   <a href="https://imtiazhossain.dev"><img src="https://img.shields.io/badge/Portfolio-imtiazhossain.dev-7CDFFF?style=for-the-badge&logo=vercel&logoColor=black" /></a>
@@ -21,7 +21,7 @@
 
 AI Engineer and researcher (CSE @ BRAC University) working across computer vision, NLP, deep learning, and the production systems around them. I train and evaluate models end to end and report the honest ceiling, the failure modes matter as much as the headline number.
 
-- Researching **biometric privacy under generative editing** (Obscrowd).
+- Researching **biometric privacy under generative editing** (working paper in preparation).
 - Shipping production platforms on a **zero-cost cloud budget**.
 - Everything, interactive AI playground and a RAG assistant included, lives at **[imtiazhossain.dev](https://imtiazhossain.dev)**.
 - Open to research collaborations, AI/ML engineering roles, and graduate opportunities.
@@ -30,14 +30,14 @@ AI Engineer and researcher (CSE @ BRAC University) working across computer visio
 
 ### Featured work
 
-| Project | What it is | Signal | Links |
-| :--- | :--- | :--- | :--- |
-| **Brain Tumor Segmentation** | U-Net + DenseNet on BRISC 2025 MRI | `88.22% Dice` · `97.50% acc` | [demo](https://imtiazhossain.dev/playground/brain-tumor) · [code](https://github.com/ImtiazHossain-Eshan/Brain-Tumor-Segmentation-Classification) |
-| **News Topic Classification** | 27 experiments, TF-IDF to BERT | `0.9376 macro-F1` | [demo](https://imtiazhossain.dev/playground/news-classification) · [code](https://github.com/ImtiazHossain-Eshan/News-Headline-Topic-Classification) |
-| **AI-Text Detection** | 28 stylometric features + RF | `97.40% on HC3` | [demo](https://imtiazhossain.dev/playground/text-detection) · [code](https://github.com/ImtiazHossain-Eshan/AI-Generated-Text-Detection) |
-| **Obscrowd (research)** | Multi-face biometric unlinkability | `0.957 to 0.138` sim | [paper](https://imtiazhossain.dev/research) |
-| **BRACU Vault** | Verified study archive, $0/mo infra | Cloudflare + RBAC | [live](https://www.bracuvault.me/) |
-| **Polaris** | AI academic strategist | Structured LLM + RAG | [live](https://polaris-zcq9.vercel.app/) · [code](https://github.com/ImtiazHossain-Eshan/Polaris) |
+| Project | What it is | Links |
+| :-- | :-- | :-- |
+| **Brain Tumor Segmentation**<br/>![Dice](https://img.shields.io/badge/Dice-88.22%25-7CDFFF?style=flat-square&labelColor=11141A) ![Accuracy](https://img.shields.io/badge/Accuracy-97.50%25-7CDFFF?style=flat-square&labelColor=11141A) | U-Net + DenseNet on the BRISC 2025 MRI dataset | [![demo](https://img.shields.io/badge/demo-11141A?style=flat-square&logo=vercel&logoColor=7CDFFF)](https://imtiazhossain.dev/playground/brain-tumor) [![code](https://img.shields.io/badge/code-11141A?style=flat-square&logo=github&logoColor=white)](https://github.com/ImtiazHossain-Eshan/Brain-Tumor-Segmentation-Classification) |
+| **News Topic Classification**<br/>![macro-F1](https://img.shields.io/badge/macro--F1-0.9376-7CDFFF?style=flat-square&labelColor=11141A) | 27 experiments, TF-IDF through BERT | [![demo](https://img.shields.io/badge/demo-11141A?style=flat-square&logo=vercel&logoColor=7CDFFF)](https://imtiazhossain.dev/playground/news-classification) [![code](https://img.shields.io/badge/code-11141A?style=flat-square&logo=github&logoColor=white)](https://github.com/ImtiazHossain-Eshan/News-Headline-Topic-Classification) |
+| **AI-Text Detection**<br/>![HC3](https://img.shields.io/badge/HC3-97.40%25-7CDFFF?style=flat-square&labelColor=11141A) | 28 stylometric features + Random Forest | [![demo](https://img.shields.io/badge/demo-11141A?style=flat-square&logo=vercel&logoColor=7CDFFF)](https://imtiazhossain.dev/playground/text-detection) [![code](https://img.shields.io/badge/code-11141A?style=flat-square&logo=github&logoColor=white)](https://github.com/ImtiazHossain-Eshan/AI-Generated-Text-Detection) |
+| **Working paper — biometric privacy**<br/>![status](https://img.shields.io/badge/status-in%20preparation-5F6672?style=flat-square&labelColor=11141A) | Multi-face biometric unlinkability under generative editing | [![overview](https://img.shields.io/badge/overview-11141A?style=flat-square&logo=readthedocs&logoColor=7CDFFF)](https://imtiazhossain.dev/research) |
+| **BRACU Vault** | Verified study archive on a $0/mo Cloudflare stack | [![live](https://img.shields.io/badge/live-11141A?style=flat-square&logo=vercel&logoColor=7CDFFF)](https://www.bracuvault.me/) |
+| **Polaris** | AI academic strategist — structured LLM output + RAG | [![live](https://img.shields.io/badge/live-11141A?style=flat-square&logo=vercel&logoColor=7CDFFF)](https://polaris-zcq9.vercel.app/) [![code](https://img.shields.io/badge/code-11141A?style=flat-square&logo=github&logoColor=white)](https://github.com/ImtiazHossain-Eshan/Polaris) |
 
 ---
 
@@ -70,10 +70,17 @@ AI Engineer and researcher (CSE @ BRAC University) working across computer visio
 
 <div align="center">
 
-<!-- <img height="165" src="https://imtiazgithubstats.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF" />
-<img height="165" src="https://imtiazgithubstats.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" /> -->
+<img height="170" src="https://imtiazgithubstats.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF&ring_color=7CDFFF" alt="GitHub stats" />
+&nbsp;
+<img height="170" src="https://imtiazgithubstats.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com?user=ImtiazHossain-Eshan&hide_border=true&background=07080A&stroke=1B202A&ring=7CDFFF&fire=7CDFFF&currStreakLabel=7CDFFF&sideLabels=9AA3AF&currStreakNum=E9E7E2&sideNums=E9E7E2&dayLabels=9AA3AF&dates=5F6672&titleColor=7CDFFF" height="165" />
+<br/><br/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=ImtiazHossain-Eshan&hide_border=true&background=07080A&stroke=1B202A&ring=7CDFFF&fire=7CDFFF&currStreakLabel=7CDFFF&sideLabels=9AA3AF&currStreakNum=E9E7E2&sideNums=E9E7E2&dayLabels=9AA3AF&dates=5F6672&titleColor=7CDFFF" alt="Streak stats" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ImtiazHossain-Eshan&bg_color=07080A&color=7CDFFF&line=7CDFFF&point=E9E7E2&area=true&area_color=2CB8E8&hide_border=true&custom_title=Contribution+Activity&radius=6" alt="Contribution activity graph" />
 
 </div>
 
