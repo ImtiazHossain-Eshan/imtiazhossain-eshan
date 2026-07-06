@@ -70,9 +70,9 @@ AI Engineer and researcher (CSE @ BRAC University) working across computer visio
 
 <div align="center">
 
-<img height="170" src="https://imtiazgithubstats.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF&ring_color=7CDFFF" alt="GitHub stats" />
+<img height="170" src="https://github-stats-extended-frontend-vert.vercel.app/api?username=ImtiazHossain-Eshan&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=07080A&title_color=7CDFFF&icon_color=7CDFFF&text_color=9AA3AF&ring_color=7CDFFF" alt="GitHub stats" />
 &nbsp;
-<img height="170" src="https://imtiazgithubstats.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" alt="Top languages" />
+<img height="170" src="https://github-stats-extended-frontend-vert.vercel.app/api/top-langs/?username=ImtiazHossain-Eshan&layout=compact&hide_border=true&langs_count=8&bg_color=07080A&title_color=7CDFFF&text_color=9AA3AF" alt="Top languages" />
 
 <br/><br/>
 
