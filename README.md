@@ -19,7 +19,7 @@
 
 ### `whoami`
 
-AI Engineer and researcher (CSE @ BRAC University) working across computer vision, NLP, deep learning, and the production systems around them. I train and evaluate models end to end and report the honest ceiling, the failure modes matter as much as the headline number.
+AI Engineer and researcher (CS @ BRAC University) working across computer vision, NLP, deep learning, and the production systems around them. I train and evaluate models end to end and report the honest ceiling, the failure modes matter as much as the headline number.
 
 - Researching **biometric privacy under generative editing** (working paper in preparation).
 - Shipping production platforms on a **zero-cost cloud budget**.
